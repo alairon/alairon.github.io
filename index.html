@@ -1,47 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
+    <title>Simply just a lairon</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="stylesheet/w3.css" />
-    <title>Welcome!</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!-- Header -->
-    <div class="w3-bar w3-dark-gray">
-        <div class="w3-dropdown-hover"><button class="w3-button w3-black w3-hover-red">alairon</button></div>
-        <div class="w3-dropdown-hover"><button class="w3-button w3-hover-red">About</button></div>
-        <div class="w3-dropdown-hover w3-hover-red">
-            <button class="w3-button w3-hover-red">Projects</button>
-            <div class="w3-dropdown-content w3-bar-block w3-border">
-                <a href="#" class="w3-bar-item w3-button w3-hover-white">Website</a>
+    <div class="navbar navbar-expand-sm bg-dark navbar-fixed-top">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <button type="button" class="btn btn-primary">alairon</button>
+            </li>
+            <li class="nav-item">
+                <a href="#" type="btn" class="btn">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" type="btn" class="btn">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" type="btn" class="btn">Blog</a>
+            </li>
+        </ul>
+    </div>
+    
+    <br>
+
+    <div class="container">    
+        <div class="accordian" role="tablist" aria-multiselectable="true">
+            <div class="card">
+                <div class="card-header" role="tab" id="noticeOne">
+                    <h5 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordian" href="#collapseNotice" aria-expanded="true" aria-controls="collapseNotice">
+                            Website Construction
+                        </a>
+                    </h5>
+                </div>
+
+                <div id="collapseNotice" class="collapse" role="tabpanel" aria-labelledby="noticeOne">
+                    <div class="card-block">
+                        <div class="container">
+                            <br>
+                            <p>This is the overview of how the site is progressing, and will be removed upon completion of the initial phase.</p>
+                            <hr>
+                            <h5>Current Task</h5>
+                            <p>Change the underlying CSS to use Boostrap instead of W3-CSS</p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:95%">95%</div>
+                                </div>
+                            </p>
+                            <h5>Overall Progress</h5>
+                            <p>List of tasks: <a href="https://github.com/alairon/alairon.github.io/projects/1">All Tasks</a></p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:5%">5%</div>
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width:20%">Setup</div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="w3-bar-item w3-hover-red">Blog</div>
+    <br>
+    <p>
+        Welcome to my personal website! I started this project as a means to get myself back into using HTML and CSS. The last time I've properly created a site in any capacity was back in 2011 with HTML 4 and CSS 2. A lot has changed since then.
+    </p>
     </div>
 
-    <!-- Site body -->
-    <div class="w3-panel w3-yellow w3-display-container w3-center">
-        <span onclick="this.parentElement.style.display='none'" 
-              class="w3-button w3-display-topright w3-hover-red">X</span>
-            <h2>This website is under construction</h2>
-        <p>
-            Hey, thanks for visting my website! As you can see, this website is still under construction for the time being.<br />Be sure to check out the progress below after the home page is roughly done. 
-        </p>
-    </div>
+    <script>
 
-    <div class="w3-container">
-        <p>
-            Welcome to my personal website! I started this project as a means to get myself back into using HTML and CSS. The last time I've properly created a site in any capacity was back in 2011 with HTML 4 and CSS 2. A lot has changed since then. Hopefully I can catch up quickly.
-        </p>
-    </div>
-
-    <!-- The footer -->
-    <div class="w3-container w3-margin w3-dark-gray">
-        <div class="w3-container">
-            <!-- <img src="img/GitHub-Marsk-Light-32px.png" alt="GitHub Logo" class="w3-image" /> -->
-            <p class="w3-right-align">&copy Ambrose Lai</p>
-        </div>
-    </div>
+    </script>
 </body>
 </html>
