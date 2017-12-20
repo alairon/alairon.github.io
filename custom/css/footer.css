@@ -2,8 +2,8 @@
 Footer Styling based on the "Modern Footer" style by Prabu.
 https://bootsnipp.com/snippets/p1Zva
 */
-footer { background-color:#0c1a1e; min-height:300px; position:relative; width:100%;}
-.footer-col { margin-top:50px; }
+footer { background-color:#1d2124; min-height:300px; position:relative; left:0px; right:0px; bottom:0px; width:100%;}
+.footer-col { margin-top:40px; }
 .logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
 
 .footer-col p { color:#fff; font-size:12px; margin-bottom:15px;}
