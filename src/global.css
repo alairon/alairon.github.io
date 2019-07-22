@@ -1,0 +1,6 @@
+/* Removes browser-specific margins and padding */
+* {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
