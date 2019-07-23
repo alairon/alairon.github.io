@@ -2,9 +2,19 @@
 
 Sections
 -----
+ 0 - Global Settings
  A - General Style
 -----
 */
+
+/* 0 - Global Settings */
+/* Removes browser-specific margins and padding */
+* {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+/* Section 0 End */
 
 /* A - General Style */
 #content {
@@ -14,7 +24,8 @@ Sections
 }
 
 h1 {
-    font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, serif
+    font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
 }
 
 body {
