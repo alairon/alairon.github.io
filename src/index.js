@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Navbar, Footer } from './navigation';
-import './index.css';
+import { Navbar, Footer } from './js/navigation';
+import './css/index.css';
 
 class App extends React.Component {
     render() {

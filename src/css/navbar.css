@@ -16,7 +16,6 @@ B - Navigation Contents
     background-color: rgba(30, 30, 30, 0.95);
     width: 100%;
     text-transform: uppercase;
-    margin: 0 0 auto;
     position: fixed;
     left: 0;
     top: 0;
@@ -67,7 +66,7 @@ B - Navigation Contents
     color: rgb(255, 160, 122);
 }
 
-.navMenu li a:focus {
+/*.navMenu li a:focus {
     color: rgb(255, 160, 122);
-}
+}*/
 /* Section B End */
