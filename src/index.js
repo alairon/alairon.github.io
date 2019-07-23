@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { Navbar, Footer } from './navigation';
 import './index.css';
 
-
 class App extends React.Component {
     render() {
         return (
