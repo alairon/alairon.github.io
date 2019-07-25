@@ -46,9 +46,9 @@ export class Footer extends React.Component {
     return (
       <footer>
         <ul id="social-links">
-          <li><a href="https://github.com/alairon"><FontAwesomeIcon icon={faGithub} size="lg" /></a></li>
-          <li><a href="https://www.linkedin.com/in/ambroselai"><FontAwesomeIcon icon={faLinkedinIn} size="lg" /></a></li>
-          <li><a href="mailto:alairon@outlook.com"><FontAwesomeIcon icon={faEnvelope} size="lg" /></a></li>
+          <li><a href="https://github.com/alairon" title="Github"><FontAwesomeIcon icon={faGithub} size="lg" /></a></li>
+          <li><a href="https://www.linkedin.com/in/ambroselai" title="LinkedIn"><FontAwesomeIcon icon={faLinkedinIn} size="lg" /></a></li>
+          <li><a href="mailto:alairon@outlook.com" title="email"><FontAwesomeIcon icon={faEnvelope} size="lg" /></a></li>
         </ul>
       </footer>
     );
