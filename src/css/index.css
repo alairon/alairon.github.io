@@ -17,6 +17,11 @@ Sections
 /* Section 0 End */
 
 /* A - General Style */
+ol {
+  margin-top: 1em;
+  margin-left: 2em;
+}
+
 #bannerContent {
   top: 50px; /* Height of navbar */
 }
