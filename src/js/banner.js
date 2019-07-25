@@ -5,7 +5,7 @@ import '../css/particles.css';
 export class BannerPortfolio extends React.Component {
   render() {
     return (
-      <div id="particles-js">
+      <div className="banner" id="portfolioBanner">
         <p className="bannerText">
           Portfolio
         </p>
@@ -87,7 +87,7 @@ export class BannerPortfolio extends React.Component {
 export class BannerResume extends React.Component {
   render () {
     return (
-      <div id="particles-js-resume">
+      <div className="banner" id="resumeBanner">
         <p className="bannerText">
           Resume
         </p>
@@ -161,7 +161,7 @@ export class BannerResume extends React.Component {
 export class Banner extends React.Component {
   render () {
     return (
-    <div id="particles-js-portfolio">
+    <div className="banner" id="aboutBanner">
       <p className="bannerText">
         About
       </p>
