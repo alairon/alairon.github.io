@@ -53,7 +53,7 @@ class Resume extends React.Component {
 
           { /* Projects/Coursework Section */}
           <section className="resumeSection" id="Projects">
-            <h1>Projects &amp; Coursework</h1>
+            <h1>Projects</h1>
             <ul>
               <li>
                 <span>Personal Portfolio Website</span>
@@ -119,7 +119,7 @@ class Resume extends React.Component {
 
           {/* Experience/Volunteerism Section */}
           <section className="resumeSection" id="Experience">
-            <h1>Experience &amp; Volunteerism</h1>
+            <h1>Volunteer Experience</h1>
             <ul>
               <li>
                 <span>Interhall Council Scribe</span>
