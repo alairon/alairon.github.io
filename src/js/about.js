@@ -8,6 +8,7 @@ class About extends React.Component {
       <div id="bannerContent">
         <Helmet>
           <title>About | Ambrose Lai</title>
+          <meta name="Description" content="Information and ways to contact me." />
         </Helmet>
         <Banner />
         <div id="content">

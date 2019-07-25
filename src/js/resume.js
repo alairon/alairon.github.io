@@ -11,6 +11,7 @@ class Resume extends React.Component {
       <div id="bannerContent">
         <Helmet>
             <title>Resume | Ambrose Lai</title>
+            <meta name="Description" content="The complete resume."></meta>
         </Helmet>
         <BannerResume />
         <div id="content">

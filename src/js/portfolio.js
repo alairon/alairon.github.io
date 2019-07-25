@@ -8,6 +8,7 @@ class Portfolio extends React.Component {
       <div id="bannerContent">
         <Helmet>
           <title>Portfolio | Ambrose Lai</title>
+          <meta name="Description" content="Showcase of the projects I've worked on."></meta>
         </Helmet>
         <BannerPortfolio />
         <div id="content">
