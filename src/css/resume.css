@@ -1,0 +1,93 @@
+/* resume.css -- Styles for specific portions of the resume page 
+
+Sections
+-----
+  A - Horizontal Rule
+  B - Buttons
+    i - PDF button
+    ii - DOCX button
+  C - Resume Content
+-----
+*/
+
+/* A - Horizontal Rule */
+hr {
+  margin: 1rem;
+  color: rgb(0,0,0);
+  background-color:  linear-gradient(to right, transparent, black, transparent);
+}
+/* Section A End */
+
+/* B - Buttons */
+#resumeButtons {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#resumeButtons li {
+  display: inline;
+  list-style-type: none;
+  padding: 0 1%;
+}
+
+/* i - 'Download as PDF' button */
+#resumeButtons a.pdf {
+  text-decoration: none;
+  background-color: rgb(199,9,9);
+  color: whitesmoke;
+  padding: 1%;
+}
+
+#resumeButtons a.pdf:hover {
+  background-color: rgb(229,39,39);
+}
+/* Subsection i End */
+
+/* ii - 'Download as DOCX' button */
+#resumeButtons a.docx {
+  text-decoration: none;
+  background-color: rgb(41,83,145);
+  color: whitesmoke;
+  padding: 1%;
+}
+
+#resumeButtons a.docx:hover {
+  background-color: rgb(71, 113, 175);
+}
+/* Subsection ii End */
+/* Section B End */
+
+/* C - Resume Content */
+.resumeSection {
+  margin-top: 1%;
+}
+
+.resumeSection span {
+  font-weight: bold;
+}
+
+.resumeSection span.date {
+  float: right;
+}
+
+.resumeSection span.italics {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.resumeSection h1 {
+  font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
+  font-size: 2em;
+}
+
+.resumeSection ul li{
+  list-style-type: none;
+  margin-left: 1em;
+}
+
+.resumeSection ul li ul li {
+  list-style-type: initial;
+  margin-left: 2em;
+}
+/* Section C End */
