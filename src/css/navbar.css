@@ -2,71 +2,72 @@
 
 Sections
 -----
-A - Navigation Core
-B - Navigation Contents
+  A - Navigation Core
+  B - Navigation Contents
 -----
 */
 
 /**
- A - Navigation Core
+A - Navigation Core
 **/
-.navbar {
-    font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1em;
-    background-color: rgba(30, 30, 30, 0.95);
-    width: 100%;
-    text-transform: uppercase;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 100;
+nav {
+  font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  background-color: rgba(30, 30, 30, 0.95);
+  width: 100%;
+  text-transform: uppercase;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
 }
 
 .navbarToggle {
-    display: none;
-    color: rgba(255,255,255, 0.8);
-    font-size: 1em;
+  display: none;
+  color: rgba(255,255,255, 0.8);
+  font-size: 1em;
 }
 /* Section A End */
 
 /**
- B - Navigation Contents 
+B - Navigation Contents 
 **/
 .navMenu {
-    width: 100%;
-    min-height: 32px;
-    padding: 0;
-    text-align: center;
-    border: none;
-    outline: none;
+  width: 100%;
+  max-height: 50px;
+  padding: 0;
+  text-align: center;
+  border: none;
+  outline: none;
 }
 
 .navMenu ul {
-    position: relative;
-    list-style-type: none;
+  position: relative;
+  list-style-type: none;
 }
 
 .navMenu li {
-    display: inline-flex;
-    text-align: center;
+  display: inline-flex;
+  text-align: center;
 }
 
 .navMenu li a {
-    text-decoration: none;
-    padding: 15px;
-    color: white;
+  text-decoration: none;
+  padding: 15px;
+  height: 20px;
+  color: white;
 }
 
 .navMenu li a.active {
-    text-decoration: none;
-    color: lightskyblue;
+  text-decoration: none;
+  color: lightskyblue;
 }
 
 .navMenu li a:hover {
-    color: rgb(255, 160, 122);
+  color: rgb(255, 160, 122);
 }
 
 /*.navMenu li a:focus {
-    color: rgb(255, 160, 122);
+  color: rgb(255, 160, 122);
 }*/
 /* Section B End */

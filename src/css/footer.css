@@ -1,36 +1,33 @@
-/** footer.css -- CSS for rhe footer
+/** footer.css -- CSS for the footer */
 
-*/
-
-.footer {
-    font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 100%;
-    padding: 1% 0 1% 0;
-    margin: auto;
-    color: white;
-    text-align: center;
-    background-color: rgb(30,30,30);
+footer {
+  font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  margin-top: 3%;
+  color: whitesmoke;
+  text-align: center;
+  background-color: rgb(30,30,30);
 }
 
-.footer ul {
-    display: inline-flex;
-    list-style-type: none;
+footer ul {
+  display: inline-flex;
+  list-style-type: none;
 }
 
-.footer li {
-    padding: 10px;
+footer ul li {
+  padding: 15px 10px;
 }
 
-.footer li a {
-    text-decoration: none;
-    padding: 15px;
-    color: white;
+footer ul li a {
+  text-decoration: none;
+  padding: 15px;
+  color: white;
 }
 
-.footer li a:hover {
-    color: salmon;
+footer a:hover {
+  color: salmon;
 }
 
-.footer li a:focus {
-    color: salmon;
+footer a:focus {
+  color: salmon;
 }

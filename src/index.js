@@ -4,17 +4,17 @@ import { Navbar, Footer } from './js/navigation';
 import './css/index.css';
 
 class App extends React.Component {
-    render() {
-        return (
-            <div>
-                <Navbar />
-                <Footer />
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div id="main">
+        <Navbar />
+        <Footer />
+      </div>
+    );
+  }
 }
 
 ReactDOM.render(
-    <App />,
-    document.getElementById('root')
+  <App />,
+  document.getElementById('root')
 );

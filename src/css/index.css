@@ -2,40 +2,41 @@
 
 Sections
 -----
- 0 - Global Settings
- A - General Style
+  0 - Global Settings
+  A - General Style
 -----
 */
 
 /* 0 - Global Settings */
 /* Removes browser-specific margins and padding */
 * {
-    position: relative;
-    padding: 0;
-    margin: 0;
+  position: relative;
+  padding: 0;
+  margin: 0;
 }
 /* Section 0 End */
 
 /* A - General Style */
 #bannerContent {
-    top: 49px;
+  top: 50px; /* Height of navbar */
 }
 
 #content {
-    font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 2.5rem 5%;
+  font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 5% 0;
+  padding: 0 5%;
+  overflow-y: auto;
 }
 
-h1 {
-    font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
-    font-size: 2.5em;
-    margin: 1em 0;
+#welcomeHeader {
+  font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
+  font-size: 2.5em;
+  margin: 1em 0;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    background: rgb(247, 247, 247);
+  display: flex;
+  flex-direction: column;
+  background: rgb(247, 247, 247);
 }
 /* Section A End */
