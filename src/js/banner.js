@@ -1,6 +1,6 @@
 import React from 'react';
 import { Particles } from 'react-particles-js';
-import '../css/particles.css';
+import '../css/banner.css';
 
 export class BannerPortfolio extends React.Component {
   render() {
