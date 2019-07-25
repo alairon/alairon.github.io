@@ -167,7 +167,9 @@ class Resume extends React.Component {
                 <span className="date">Oct 2016 &ndash; Apr 2017</span>
                 <br />
                 <ul>
-                  <li>Reviewed and revised existing university policies.</li>
+                  <li>Reviewed and revised existing university policies.
+                    
+                  </li>
                   <li>Drafted the university's first sexual assault policy.</li>
                 </ul>
               </li>
