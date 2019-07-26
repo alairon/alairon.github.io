@@ -1,5 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import '../css/home.css';
 
 export default class Home extends React.Component {
   render() {
@@ -9,7 +10,7 @@ export default class Home extends React.Component {
           <title>Ambrose Lai</title>
           <meta name="Description" content="The page that starts it all."></meta>
         </Helmet>
-        <div id="content">
+        <div className="home" id="content">
           <h1 id="welcomeHeader">Welcome!</h1>
           <p>
             Welcome to my website! My name is Ambrose Lai, and I re-created (yes, re-created) this website because I wanted to refine my HTML/CSS skills while learning React.
@@ -20,7 +21,7 @@ export default class Home extends React.Component {
             <ol>
               <li>All CSS must be written from scratch &mdash; Bootstrap isn't allowed!</li>
               <li>The site cannot be built upon an existing template</li>
-              <li>The site must be built with React</li>
+              <li>The site must be built with React (using JSX syntax)</li>
             </ol>
           <p>
             <br />

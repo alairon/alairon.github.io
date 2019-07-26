@@ -21,9 +21,9 @@ export class Navbar extends React.Component {
           <nav>
             <ul className="navMenu" id="navbar-menu">
               <li><NavLink to="/index" activeClassName="active">Home</NavLink></li>
-              <li><NavLink to="/about">About</NavLink></li>
-              <li><NavLink to="/resume">Resume</NavLink></li>
               <li><NavLink to="/portfolio">Portfolio</NavLink></li>
+              <li><NavLink to="/resume">Resume</NavLink></li>
+              <li><NavLink to="/about">About</NavLink></li>
             </ul>
           </nav>
 
@@ -45,11 +45,15 @@ export class Footer extends React.Component {
   render() {
     return (
       <footer>
-        <ul id="social-links">
-          <li><a href="https://github.com/alairon" title="Github"><FontAwesomeIcon icon={faGithub} size="lg" /></a></li>
-          <li><a href="https://www.linkedin.com/in/ambroselai" title="LinkedIn"><FontAwesomeIcon icon={faLinkedinIn} size="lg" /></a></li>
-          <li><a href="mailto:alairon@outlook.com" title="email"><FontAwesomeIcon icon={faEnvelope} size="lg" /></a></li>
-        </ul>
+        <div>
+          <ul id="social-links">
+            <li><a href="https://github.com/alairon" title="Github"><FontAwesomeIcon icon={faGithub} size="2x" /></a></li>
+            <li><a href="https://www.linkedin.com/in/ambroselai" title="LinkedIn"><FontAwesomeIcon icon={faLinkedinIn} size="2x" /></a></li>
+            <li><a href="mailto:alairon@outlook.com" title="email"><FontAwesomeIcon icon={faEnvelope} size="2x" /></a></li>
+          </ul>
+        </div>
+        <br />
+        <span id="copy">&copy;2019 Ambrose Lai</span>
       </footer>
     );
   }

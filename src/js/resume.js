@@ -18,8 +18,8 @@ class Resume extends React.Component {
 
           {/* Download options */}
           <ul id="resumeButtons">
-            <li><a className="pdf" href="."><FontAwesomeIcon icon={faFilePdf} size="lg" />&nbsp;&nbsp;Download as PDF</a></li>
-            <li><a className="docx" href="."><FontAwesomeIcon icon={faFileWord} size="lg" />&nbsp;&nbsp;Download as DOCX</a></li>
+            <li><a href="."><button className="pdf"><FontAwesomeIcon icon={faFilePdf} size="lg" />&nbsp;&nbsp;Download as PDF</button></a></li>
+            <li><a href="."><button className="docx"><FontAwesomeIcon icon={faFileWord} size="lg" />&nbsp;&nbsp;Download as DOCX</button></a></li>
           </ul>
           <hr />
 
@@ -199,28 +199,6 @@ class Resume extends React.Component {
                   <li>Managed large crowds of participants</li>
                   <li>Ensured safety of participants during transportation between event locations.</li>
                   <li>Assisted in event setup and takedown.</li>
-                </ul>
-              </li>
-
-            </ul>
-          </section>
-          <section className="resumeSection" id="Awards">
-            <h1>Awards &amp; Achievements</h1>
-            <ul>
-              <li>
-                <span>Improve Life Challenge (3<sup>rd</sup> Place)</span>
-                <span className="date">Jan 2018</span>
-                <br />
-                <ul>
-                  <li>Planned and presented a potential solution to a global issue to a panel of judges from Microsoft, Rightmesh, University of Waterloo, and University of Guelph</li>
-                </ul>
-              </li>
-              <li>
-                <span>National Residence Hall Honorary (NRHH Bronze Pin)</span>
-                <span className="date">Apr 2018</span>
-                <br />
-                <ul>
-                  <li>Awarded to individuals who have enriched residence life.</li>
                 </ul>
               </li>
             </ul>
