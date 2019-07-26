@@ -1,0 +1,10 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-bottom: 2vh;
+}
+
+.grid-container div {
+  background-color: lightgray;
+  border: 0.01rem dotted dodgerblue;
+}

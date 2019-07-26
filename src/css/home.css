@@ -1,0 +1,9 @@
+#welcomeHeader {
+  font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
+  font-size: 2.5em;
+  margin: 1em 0;
+}
+
+.home {
+  top: 5vh;
+}

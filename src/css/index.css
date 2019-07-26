@@ -23,20 +23,15 @@ ol {
 }
 
 #bannerContent {
-  top: 50px; /* Height of navbar */
+  top: 50px; /* Push content down by the navbar's height */
 }
 
 #content {
   font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1em;
   margin: 5% 0;
   padding: 0 5%;
-  overflow-y: auto;
-}
-
-#welcomeHeader {
-  font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
-  font-size: 2.5em;
-  margin: 1em 0;
+  min-height: 80vh;
 }
 
 body {
