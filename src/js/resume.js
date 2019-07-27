@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilePdf, faFileWord } from '@fortawesome/free-solid-svg-icons';
 import { BannerResume } from './banner';
 import '../css/resume.css';
+import { ScrollToTopOnMount } from '..';
 
 class Resume extends React.Component {
   render() {
@@ -13,10 +14,12 @@ class Resume extends React.Component {
             <title>Resume | Ambrose Lai</title>
             <meta name="Description" content="The complete resume."></meta>
         </Helmet>
+        <ScrollToTopOnMount />
         <BannerResume />
         <div id="content">
 
           {/* Download options */}
+          <p id="notice"><strong>These "download links" currently take you back to root. They will be fully functional once the contents on this page are finalized.</strong></p>
           <ul id="resumeButtons">
             <li><a href="."><button className="pdf"><FontAwesomeIcon icon={faFilePdf} size="lg" />&nbsp;&nbsp;Download as PDF</button></a></li>
             <li><a href="."><button className="docx"><FontAwesomeIcon icon={faFileWord} size="lg" />&nbsp;&nbsp;Download as DOCX</button></a></li>

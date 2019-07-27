@@ -2,9 +2,25 @@
   display: grid;
   grid-template-columns: 1fr 3fr;
   margin-bottom: 2vh;
+  text-align: center;
 }
 
 .grid-container div {
   background-color: lightgray;
   border: 0.01rem dotted dodgerblue;
+}
+
+.grid-container div h1 {
+  margin-bottom: 1rem;
+}
+
+.grid-container div p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.grid-container a {
+  text-decoration: none;
+  color: navy;
 }

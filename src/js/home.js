@@ -25,7 +25,7 @@ export default class Home extends React.Component {
             </ol>
           <p>
             <br />
-            I am quite happy with the results so far. However, this site isn't complete or optimized, so you may experience: glitches, unintended effects, or grammatical/spelling mistakes throughout the site. In the meantime, please pardon the current state this website is in.
+            Please note that this site isn't complete or optimized well, so you may experience: glitches, unintended effects, or grammatical/spelling mistakes throughout the site. Please pardon the current state this website is in.
             <br />
             <br />
             If you would like to see what this site used to look like, <a href={'./legacy/index.html'}>click here to see my legacy home page.</a>
