@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import '../css/home.css';
+import { ScrollToTopOnMount } from '..';
 
 export default class Home extends React.Component {
   render() {
@@ -10,6 +11,7 @@ export default class Home extends React.Component {
           <title>Ambrose Lai</title>
           <meta name="Description" content="The page that starts it all."></meta>
         </Helmet>
+        <ScrollToTopOnMount />
         <div className="home" id="content">
           <h1 id="welcomeHeader">Welcome!</h1>
           <p>
