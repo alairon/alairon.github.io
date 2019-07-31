@@ -1,13 +1,18 @@
+
+.grid-container:before {
+  box-shadow: 0 0 15px orange;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  margin-bottom: 2vh;
+  margin-bottom: 5vh;
   text-align: center;
-}
-
-.grid-container div {
-  background-color: lightgray;
-  border: 0.01rem dotted dodgerblue;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0, 0.4);
 }
 
 .grid-container div h1 {

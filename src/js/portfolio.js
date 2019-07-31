@@ -1,8 +1,8 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import { BannerPortfolio } from './banner';
+import { ScrollToTopOnMount } from '../index';
 import '../css/portfolio.css';
-import { ScrollToTopOnMount } from '..';
 
 class Portfolio extends React.Component {
   render() {
@@ -15,11 +15,6 @@ class Portfolio extends React.Component {
         <ScrollToTopOnMount />
         <BannerPortfolio />
         <div id="content">
-          <p id="notice">
-            <strong>The shading and borders around each grid are temporary and only used to show their boundaries.</strong>
-            <br />
-            It will be removed when this section is complete, along with this notice.
-          </p>
           <div className="grid-container">
             <div>PREF01</div>
             <div>
@@ -30,9 +25,12 @@ class Portfolio extends React.Component {
               <p>
                 Languages: HTML, CSS, JavaScript Extended (JSX)
                 <br />
-                Framework: React
+                Frameworks: React, react-router-dom, react-helmet, particles-js
                 <br />
-                Tools: npm , git, GitHub Pages
+                Tools: npm , Git, GitHub Pages
+              </p>
+              <p>
+                Link to project
               </p>
             </div>
           </div>
@@ -48,7 +46,10 @@ class Portfolio extends React.Component {
                 <br />
                 Frameworks: Electron.js, Bootstrap
                 <br />
-                Tools: npm, git
+                Tools: npm, Git, Visual Studio Code
+              </p>
+              <p>
+                Link to project
               </p>
             </div>
           </div>
@@ -65,6 +66,9 @@ class Portfolio extends React.Component {
                 Specification: <a href="https://developers.google.com/transit/gtfs/reference/">GTFS Static</a>
                 <br />
                 Tools: SQLite, Visual Studio 2017
+              </p>
+              <p>
+                Link to project
               </p>
             </div>
           </div>
