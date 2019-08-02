@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import { ScrollToTopOnMount } from '../index';
 import '../css/home.css';
-import { ScrollToTopOnMount } from '..';
 
 export default class Home extends React.Component {
   render() {

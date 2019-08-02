@@ -2,7 +2,7 @@
 
 Sections
 -----
-  A - Horizontal Rule
+  A - Page Styles
   B - Buttons
     i  - PDF button
     ii - DOCX button
@@ -15,13 +15,19 @@ hr {
   margin: 1rem;
   color: rgb(0,0,0);
 }
+
+#resumeContent {
+  padding: 1em;
+  box-shadow: 0 0 10px rgba(0,0,0, 0.4);
+  background-color: whitesmoke;
+}
 /* Section A End */
 
 /* B - Buttons */
 #resumeButtons {
   text-align: center;
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 #resumeButtons li {
@@ -47,7 +53,7 @@ hr {
 
 #resumeButtons button.pdf:hover {
   background-color: rgb(229, 39, 39);
-  box-shadow: 0 0 25px rgba(229, 39, 39, 0.25);
+  box-shadow: 0 0 15px rgba(229, 39, 39, 0.25);
 }
 /* Subsection i End */
 
@@ -58,7 +64,7 @@ hr {
 
 #resumeButtons button.docx:hover {
   background-color: rgb(71, 113, 175);
-  box-shadow: 0 0 25px rgba(71, 113, 175, 0.25);
+  box-shadow: 0 0 15px rgba(71, 113, 175, 0.25);
 }
 /* Subsection ii End */
 /* Section B End */

@@ -16,7 +16,6 @@ class Portfolio extends React.Component {
         <BannerPortfolio />
         <div id="content">
           <div className="grid-container">
-            <div>PREF01</div>
             <div>
               <h1>Personal Resume Website</h1>
               <p>
@@ -30,12 +29,11 @@ class Portfolio extends React.Component {
                 Tools: npm , Git, GitHub Pages
               </p>
               <p>
-                Link to project
+                <a href="https://github.com/alairon/alairon.github.io">View project on GitHub</a>
               </p>
             </div>
           </div>
           <div className="grid-container">
-            <div>PREF02</div>
             <div>
               <h1>SwitchRP</h1>
               <p>
@@ -49,12 +47,11 @@ class Portfolio extends React.Component {
                 Tools: npm, Git, Visual Studio Code
               </p>
               <p>
-                Link to project
+                <a href="https://github.com/alairon/SwitchRP">View project on GitHub</a>
               </p>
             </div>
           </div>
           <div className="grid-container">
-            <div>PREF03</div>
             <div>
               <h1>transitin-sqlite</h1>
               <p>
@@ -68,7 +65,7 @@ class Portfolio extends React.Component {
                 Tools: SQLite, Visual Studio 2017
               </p>
               <p>
-                Link to project
+                <a href="https://github.com/alairon/transitin-sqlite">View project on GitHub</a>
               </p>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { HashRouter as Router, Route, NavLink, Switch, Redirect } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import '../css/navbar.css';
 import '../css/footer.css';
@@ -19,6 +19,7 @@ export class Navbar extends React.Component {
     return (
       <Router>
           <nav>
+            <span className="navMenuToggle"><FontAwesomeIcon icon={faBars} />&nbsp;&nbsp;Menu</span>
             <ul className="navMenu" id="navbar-menu">
               <li><NavLink to="/index" activeClassName="active">Home</NavLink></li>
               <li><NavLink to="/portfolio">Portfolio</NavLink></li>

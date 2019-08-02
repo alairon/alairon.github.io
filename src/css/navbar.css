@@ -20,6 +20,7 @@ nav {
   left: 0;
   top: 0;
   z-index: 100;
+  overflow: hidden;
 }
 
 .navbarToggle {
@@ -33,6 +34,15 @@ nav {
 /**
 B - Navigation Contents 
 **/
+.navMenuToggle {
+  display: inline-flex;
+  float:left;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  display: none;
+}
+
 .navMenu {
   width: 100%;
   max-height: 5%;

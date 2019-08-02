@@ -1,18 +1,15 @@
-
-.grid-container:before {
-  box-shadow: 0 0 15px orange;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr;
   margin-bottom: 5vh;
   text-align: center;
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0, 0.4);
+  background-color: whitesmoke;
+}
+
+.grid-container div{
+  margin: 5vh;
 }
 
 .grid-container div h1 {
@@ -20,9 +17,7 @@
 }
 
 .grid-container div p {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
 }
 
 .grid-container a {
