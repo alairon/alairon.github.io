@@ -2,24 +2,61 @@
 
 Sections
 -----
-  A - Page Styles
+  A - Resume Content
   B - Buttons
     i  - PDF button
     ii - DOCX button
-  C - Resume Content
 -----
 */
 
-/* A - Horizontal Rule */
-hr {
-  margin: 1rem;
-  color: rgb(0,0,0);
-}
-
+/* A - Resume Content */
 #resumeContent {
   padding: 1em;
   box-shadow: 0 0 10px rgba(0,0,0, 0.4);
   background-color: whitesmoke;
+}
+
+.resumeSection {
+  margin-top: 1em;
+}
+
+.resumeSection span {
+  font-weight: bold;
+}
+
+.resumeSection a.link {
+  font-weight: normal;
+  font-style: italic;
+  color: black;
+  text-decoration: underline;
+}
+
+.resumeSection span.date {
+  float: right;
+}
+
+.resumeSection span.italics {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.resumeSection h1 {
+  font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
+  font-size: 2em;
+}
+
+.resumeSection ul li{
+  list-style-type: none;
+  margin-left: 1em;
+}
+
+.resumeSection ul li ul {
+  margin-bottom: 1em;
+}
+
+.resumeSection ul li ul li {
+  list-style-type: initial;
+  margin-left: 2em;
 }
 /* Section A End */
 
@@ -68,41 +105,3 @@ hr {
 }
 /* Subsection ii End */
 /* Section B End */
-
-/* C - Resume Content */
-.resumeSection {
-  margin-top: 1em;
-}
-
-.resumeSection span {
-  font-weight: bold;
-}
-
-.resumeSection span.date {
-  float: right;
-}
-
-.resumeSection span.italics {
-  font-weight: normal;
-  font-style: italic;
-}
-
-.resumeSection h1 {
-  font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
-  font-size: 2em;
-}
-
-.resumeSection ul li{
-  list-style-type: none;
-  margin-left: 1em;
-}
-
-.resumeSection ul li ul {
-  margin-bottom: 1em;
-}
-
-.resumeSection ul li ul li {
-  list-style-type: initial;
-  margin-left: 2em;
-}
-/* Section C End */

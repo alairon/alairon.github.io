@@ -8,6 +8,10 @@
   background-color: whitesmoke;
 }
 
+span {
+  margin-bottom: 1em;
+}
+
 .grid-container div{
   margin: 5vh;
 }

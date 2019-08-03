@@ -19,11 +19,15 @@ class Resume extends React.Component {
         <div id="content">
             {/* Download options */}
             <ul id="resumeButtons">
-              <li><a href="."><button className="pdf"><FontAwesomeIcon icon={faFilePdf} size="lg" />&nbsp;&nbsp;Download&nbsp;as PDF</button></a></li>
-              <li><a href="."><button className="docx"><FontAwesomeIcon icon={faFileWord} size="lg" />&nbsp;&nbsp;Download&nbsp;as DOCX</button></a></li>
+              <li><a href="https://www.dropbox.com/s/ep7zva2nzw3nldh/AmbroseLai_Resume_Jul2019SP.pdf?dl=0"><button className="pdf"><FontAwesomeIcon icon={faFilePdf} size="lg" />&nbsp;&nbsp;View&nbsp;as PDF</button></a></li>
+              <li><a href="https://www.dropbox.com/s/6me33tqlz6y2wh1/AmbroseLai_Resume_Jul2019SP.docx?dl=0"><button className="docx"><FontAwesomeIcon icon={faFileWord} size="lg" />&nbsp;&nbsp;View&nbsp;as DOCX</button></a></li>
             </ul>
           <div id="resumeContent">
+            {/* Basic Contact Section */}
+            <section className="resumeSection" id="Contact">
+              <h1>Ambrose Lai</h1>
 
+            </section>
             {/* Skills Section */}
             <section className="resumeSection" id="Skills">
               <h1>Skills</h1>
@@ -60,6 +64,8 @@ class Resume extends React.Component {
                 <li>
                   <span>Personal Portfolio Website</span>
                   <span className="date">July 2019</span>
+                  <br />
+                  <a className="link" href="https://github.com/alairon/alairon.github.io/tree/dev">Personal Project on GitHub</a>
                   <ul>
                     <li>Implemented a personal website using React, HTML and CSS from scratch with JSX.</li>
                     <li>Utilized npm to acquire and manage React packages.</li>
@@ -69,14 +75,18 @@ class Resume extends React.Component {
                 <li>
                   <span>SwitchRP</span>
                   <span className="date">Dec 2018 &ndash; Jan 2019</span>
-                    <ul>
-                      <li>Created an application using the Electron.js framework to allow users to share a custom status on Discord.</li>
-                      <li>Developed the interface using HTML, CSS, Bootstrap, and JavaScript</li>
-                    </ul>
+                  <br />
+                  <a className="link" href="https://github.com/alairon/SwitchRP">Personal Project on GitHub</a>
+                  <ul>
+                    <li>Created an application using the Electron.js framework to allow users to share a custom status on Discord.</li>
+                    <li>Developed the interface using HTML, CSS, Bootstrap, and JavaScript</li>
+                  </ul>
                 </li>
                 <li>
                   <span>transitin-lite</span>
                   <span className="date">Aug 2018 &ndash; Sept 2018</span>
+                  <br />
+                  <a className="link" href="https://github.com/alairon/transitin-sqlite">Personal Project on GitHub</a>
                   <ul>
                     <li>Developed a C++ program to automate the processing of large files into an SQLite database.</li>
                     <li>Researched and implemented the General Transit Feed Specification (GTFS) into the program.</li>
@@ -162,44 +172,6 @@ class Resume extends React.Component {
                     <li>Represented the residence community to university committees and administration.</li>
                     <li>Collaborated with Residence Assistants to run large-scale residence events.</li>
                     <li>Organized, chaired, and converyed information to attendees in weekly council meetings.</li>
-                  </ul>
-                </li>
-                <li>
-                  <span>Student Rights &amp; Responsibilities Committee</span>
-                  <span className="date">Oct 2016 &ndash; Apr 2017</span>
-                  <br />
-                  <ul>
-                    <li>Reviewed and revised existing university policies.
-                      
-                    </li>
-                    <li>Drafted the university's first sexual assault policy.</li>
-                  </ul>
-                </li>
-                <li>
-                  <span>University Judicial Committee</span>
-                  <span className="date">Oct 2016 &ndash; Apr 2017</span>
-                  <br />
-                  <ul>
-                    <li>Utilized procedural fairness to render verdicts in Non-Academic Misconduct cases.</li>
-                  </ul>
-                </li>
-                <li>
-                  <span>Orientation Week</span>
-                  <span className="date">Multiple Years (Aug/Sept) &ndash; 2014, 2016, 2017</span>
-                  <ul>
-                    <li>Managed ticket sales.</li>
-                    <li>Utlized NATO radio signals to communicate with other teams.</li>
-                  </ul>
-                </li>
-                <li>
-                  <span>Project Serve</span>
-                  <span className="date">Multiple Years (Sept) &ndash; 2013, 2014, 2015, 2017</span>
-                  <br />
-                  <ul>
-                    <li>Assisted organizations around the community</li>
-                    <li>Managed large crowds of participants</li>
-                    <li>Ensured safety of participants during transportation between event locations.</li>
-                    <li>Assisted in event setup and takedown.</li>
                   </ul>
                 </li>
               </ul>

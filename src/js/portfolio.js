@@ -19,14 +19,18 @@ class Portfolio extends React.Component {
             <div>
               <h1>Personal Resume Website</h1>
               <p>
-                A personal portfolio website leveraging the power of React js. It was created to challenge my raw HTML/CSS knowledge while learning React.
+                A personal portfolio website leveraging the power of React js. 
+                While I had some kind of website a couple years ago, I wanted to modernize it while using technologies that I haven't used before. 
+                I went with React and decided to write all the CSS myself, without the help of a precompiled CSS library or building upon a template.
               </p>
               <p>
-                Languages: HTML, CSS, JavaScript Extended (JSX)
+                <strong>Topics</strong>: UI/UX Design, Frontend Development, React
                 <br />
-                Frameworks: React, react-router-dom, react-helmet, particles-js
+                <strong>Languages</strong>: HTML, CSS, JavaScript Extended (JSX)
                 <br />
-                Tools: npm , Git, GitHub Pages
+                <strong>Frameworks &amp; Libraries</strong>: React, react-router-dom, react-helmet, particles-js
+                <br />
+                <strong>Tools</strong>: npm, Visual Studio Code, Git, GitHub Pages
               </p>
               <p>
                 <a href="https://github.com/alairon/alairon.github.io">View project on GitHub</a>
@@ -37,14 +41,18 @@ class Portfolio extends React.Component {
             <div>
               <h1>SwitchRP</h1>
               <p>
-                A desktop application built with Electron that allows users to post a custom game status.
+                Switch Rich Presence (SwitchRP) is a desktop application built with Electron that allows users to post a custom game status.
+                I created this application because I wanted an easy way to show other users what I was doing on Discord (a popular gaming-focused communication tool). 
+                The idea came about because the Nintendo Switch does not communicate game activities with Discord.
               </p>
               <p>
-                Languages: HTML, CSS, JavaScript
+                <strong>Topics</strong>: UI/UX Design, Frontend Development, Backend Development, Electron.js
                 <br />
-                Frameworks: Electron.js, Bootstrap
+                <strong>Languages</strong>: HTML, CSS, JavaScript, JSON
                 <br />
-                Tools: npm, Git, Visual Studio Code
+                <strong>Frameworks &amp; Libraries</strong>: Electron.js, Bootstrap
+                <br />
+                <strong>Tools</strong>: npm, Node.js, Git, Visual Studio Code
               </p>
               <p>
                 <a href="https://github.com/alairon/SwitchRP">View project on GitHub</a>
@@ -55,14 +63,18 @@ class Portfolio extends React.Component {
             <div>
               <h1>transitin-sqlite</h1>
               <p>
-                Win32 console application which converts unprocessed General Transit Feed Specification (GTFS) files into a SQLite database.
+                Win32 console application which converts consolidates General Transit Feed Specification (GTFS) files into a SQLite database. 
+                The program reads the GTFS txt files where it gets parsed before being inserted into a SQL command. 
+                During the course of development, I learned write better SQL commands, resulting in insertion times being reduced for a new large data set from over 9 hours down to under 45 minutes.
               </p>
               <p>
-                Languages: C++, SQLite
+                <strong>Topics</strong>: Backend Development, Parsing, SQLite, Console Application
                 <br />
-                Specification: <a href="https://developers.google.com/transit/gtfs/reference/">GTFS Static</a>
+                <strong>Languages</strong>: C++, C, SQLite
                 <br />
-                Tools: SQLite, Visual Studio 2017
+                <strong>Specification</strong>: <a href="https://developers.google.com/transit/gtfs/reference/">GTFS Static</a>
+                <br />
+                <strong>Tools</strong>: SQLite, Command Prompt (cmd), Visual Studio 2017, Git, GitHub
               </p>
               <p>
                 <a href="https://github.com/alairon/transitin-sqlite">View project on GitHub</a>
