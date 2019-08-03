@@ -45,6 +45,11 @@ Sections
   font-size: 2em;
 }
 
+.resumeSection h2 {
+  font-family: 'Crimson Text', Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+}
+
 .resumeSection ul li{
   list-style-type: none;
   margin-left: 1em;
@@ -74,7 +79,8 @@ Sections
 }
 
 #resumeButtons button {
-  font-family: Lato, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Source Sans Pro', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
   width: 40%;
   font-size: 0.9em;
   text-decoration: none;
@@ -89,7 +95,7 @@ Sections
 }
 
 #resumeButtons button.pdf:hover {
-  background-color: rgb(229, 39, 39);
+  background-color: rgb(209, 29, 29);
   box-shadow: 0 0 15px rgba(229, 39, 39, 0.25);
 }
 /* Subsection i End */
@@ -100,7 +106,7 @@ Sections
 }
 
 #resumeButtons button.docx:hover {
-  background-color: rgb(71, 113, 175);
+  background-color: rgb(51, 93, 155);
   box-shadow: 0 0 15px rgba(71, 113, 175, 0.25);
 }
 /* Subsection ii End */

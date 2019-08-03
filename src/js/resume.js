@@ -19,8 +19,8 @@ class Resume extends React.Component {
         <div id="content">
             {/* Download options */}
             <ul id="resumeButtons">
-              <li><a href="https://www.dropbox.com/s/ep7zva2nzw3nldh/AmbroseLai_Resume_Jul2019SP.pdf?dl=0"><button className="pdf"><FontAwesomeIcon icon={faFilePdf} size="lg" />&nbsp;&nbsp;View&nbsp;as PDF</button></a></li>
-              <li><a href="https://www.dropbox.com/s/6me33tqlz6y2wh1/AmbroseLai_Resume_Jul2019SP.docx?dl=0"><button className="docx"><FontAwesomeIcon icon={faFileWord} size="lg" />&nbsp;&nbsp;View&nbsp;as DOCX</button></a></li>
+              <li><a href="https://www.dropbox.com/s/3pmz0tlumxvy2em/AmbroseLai_Resume.pdf?dl=1"><button className="pdf" tabIndex="-1"><FontAwesomeIcon icon={faFilePdf} size="lg" />&nbsp;&nbsp;Download&nbsp;as PDF</button></a></li>
+              <li><a href="https://www.dropbox.com/s/4me93pws7tc1md5/AmbroseLai_Resume.docx?dl=1"><button className="docx" tabIndex="-1"><FontAwesomeIcon icon={faFileWord} size="lg" />&nbsp;&nbsp;Download&nbsp;as DOCX</button></a></li>
             </ul>
           <div id="resumeContent">
             {/* Basic Contact Section */}
@@ -30,17 +30,17 @@ class Resume extends React.Component {
             </section>
             {/* Skills Section */}
             <section className="resumeSection" id="Skills">
-              <h1>Skills</h1>
+              <h2>Skills</h2>
               <ul>
-                <li><span>Programming languages:&nbsp;</span>C, C++, HTML, CSS, JavaScript, Java, MySQL, SQLite, PHP, Swift</li>
+                <li><span>Programming&nbsp;Languages:&nbsp;</span>C, C++, HTML, CSS, JavaScript, Java, MySQL, SQLite, PHP, Swift</li>
                 <li><span>Libraries&nbsp;&amp;&nbsp;Frameworks:&nbsp;</span>React, Node.js, Electron.js, Bootstrap</li>
-                <li><span>Tools:&nbsp;</span>Git, Github, Windows, Linux, Visual Studio, Visual Studio Code, Adobe Photoshop/Premiere Elements, npm, Axure RP, Visio, Andriod Studio, Bash, WordPress, XCode</li>
+                <li><span>Tools:&nbsp;</span>Git, GitHub, Windows, Linux, Visual Studio, Visual Studio Code, Adobe Photoshop/Premiere Elements, npm, Axure RP, Visio, Andriod Studio, Bash, WordPress, XCode</li>
               </ul>
             </section>
 
             {/* Education Section */}
             <section className="resumeSection" id="Education">
-              <h1>Education</h1> 
+              <h2>Education</h2> 
               <ul>
                 <li>
                   <span>Bachelor of Computing</span>
@@ -59,11 +59,11 @@ class Resume extends React.Component {
 
             { /* Projects/Coursework Section */}
             <section className="resumeSection" id="Projects">
-              <h1>Projects</h1>
+              <h2>Projects</h2>
               <ul>
                 <li>
                   <span>Personal Portfolio Website</span>
-                  <span className="date">July 2019</span>
+                  <span className="date">July 2019 &ndash; Aug 2019</span>
                   <br />
                   <a className="link" href="https://github.com/alairon/alairon.github.io/tree/dev">Personal Project on GitHub</a>
                   <ul>
@@ -131,7 +131,7 @@ class Resume extends React.Component {
 
             {/* Experience/Volunteerism Section */}
             <section className="resumeSection" id="Experience">
-              <h1>Volunteer Experience</h1>
+              <h2>Experience</h2>
               <ul>
                 <li>
                   <span>Interhall Council Scribe</span>
@@ -168,6 +168,7 @@ class Resume extends React.Component {
                   <span>East Village President</span>
                   <span className="date">May 2016 &ndash; Apr 2017</span>
                   <br />
+                  <span className="italics">Interhall Council, University of Guelph</span>
                   <ul>
                     <li>Represented the residence community to university committees and administration.</li>
                     <li>Collaborated with Residence Assistants to run large-scale residence events.</li>

@@ -18,24 +18,24 @@ export class Navbar extends React.Component {
   render() {
     return (
       <Router>
-          <nav>
-            <span className="navMenuToggle"><FontAwesomeIcon icon={faBars} />&nbsp;&nbsp;Menu</span>
-            <ul className="navMenu" id="navbar-menu">
-              <li><NavLink to="/index" activeClassName="active">Home</NavLink></li>
-              <li><NavLink to="/portfolio">Portfolio</NavLink></li>
-              <li><NavLink to="/resume">Resume</NavLink></li>
-              <li><NavLink to="/about">About</NavLink></li>
-            </ul>
-          </nav>
+        <nav>
+          <span className="navMenuToggle"><FontAwesomeIcon icon={faBars} />&nbsp;&nbsp;Menu</span>
+          <ul className="navMenu" id="navbar-menu">
+            <li><NavLink to="/index" activeClassName="active">Home</NavLink></li>
+            <li><NavLink to="/portfolio">Portfolio</NavLink></li>
+            <li><NavLink to="/resume">Resume</NavLink></li>
+            <li><NavLink to="/about">About</NavLink></li>
+          </ul>
+        </nav>
 
-          <Switch>
-            <Route exact path="/" render={() => <Redirect to="/index"></Redirect>} />
-            <Route path="/index" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/resume" component={Resume} />
-            <Route path="/portfolio" component={Portfolio} />
-            <Route component={NoMatch} />
-          </Switch>
+        <Switch>
+          <Route exact path="/" render={() => <Redirect to="/index"></Redirect>} />
+          <Route path="/index" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/resume" component={Resume} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route component={NoMatch} />
+        </Switch>
       </Router>
     );
   }
