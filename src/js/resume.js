@@ -65,7 +65,7 @@ class Resume extends React.Component {
                   <span>Personal Portfolio Website</span>
                   <span className="date">July 2019 &ndash; Aug 2019</span>
                   <br />
-                  <a className="link" href="https://github.com/alairon/alairon.github.io/tree/dev">Personal Project on GitHub</a>
+                  <a className="link" href="https://github.com/alairon/alairon.github.io/tree/dev">Personal Project Hosted on GitHub</a>
                   <ul>
                     <li>Implemented a personal website using React, HTML and CSS from scratch with JSX.</li>
                     <li>Utilized npm to acquire and manage React packages.</li>
@@ -76,17 +76,17 @@ class Resume extends React.Component {
                   <span>SwitchRP</span>
                   <span className="date">Dec 2018 &ndash; Jan 2019</span>
                   <br />
-                  <a className="link" href="https://github.com/alairon/SwitchRP">Personal Project on GitHub</a>
+                  <a className="link" href="https://github.com/alairon/SwitchRP">Personal Project Hosted on GitHub</a>
                   <ul>
                     <li>Created an application using the Electron.js framework to allow users to share a custom status on Discord.</li>
                     <li>Developed the interface using HTML, CSS, Bootstrap, and JavaScript</li>
                   </ul>
                 </li>
                 <li>
-                  <span>transitin-lite</span>
+                  <span>transitin-sqlite</span>
                   <span className="date">Aug 2018 &ndash; Sept 2018</span>
                   <br />
-                  <a className="link" href="https://github.com/alairon/transitin-sqlite">Personal Project on GitHub</a>
+                  <a className="link" href="https://github.com/alairon/transitin-sqlite">Personal Project Hosted on GitHub</a>
                   <ul>
                     <li>Developed a C++ program to automate the processing of large files into an SQLite database.</li>
                     <li>Researched and implemented the General Transit Feed Specification (GTFS) into the program.</li>
