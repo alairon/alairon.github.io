@@ -11,13 +11,9 @@ Sections
 
 /* A - Resume Content */
 #resumeContent {
-  padding: 1em;
+  padding: 2em;
   box-shadow: 0 0 10px rgba(0,0,0, 0.4);
   background-color: whitesmoke;
-}
-
-.resumeSection {
-  margin-top: 1em;
 }
 
 .resumeSection span {
