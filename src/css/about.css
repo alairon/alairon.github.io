@@ -1,0 +1,18 @@
+#social, #aboutContent, #aboutSite {
+  box-shadow: 0 0 10px rgba(0,0,0, 0.4);
+  background-color: whitesmoke;
+  padding: 2em;
+  margin-bottom: 2em;
+}
+
+#socialLinks a {
+  color: black;
+}
+
+#aboutContent {
+  padding: 2em;
+}
+
+#aboutContent p {
+  margin-bottom: 1em;
+}
