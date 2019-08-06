@@ -21,12 +21,22 @@ class Resume extends React.Component {
             <ul id="resumeButtons">
               <li><a href="https://www.dropbox.com/s/3pmz0tlumxvy2em/AmbroseLai_Resume.pdf?dl=1"><button className="pdf" tabIndex="-1"><FontAwesomeIcon icon={faFilePdf} size="lg" />&nbsp;&nbsp;Download&nbsp;as PDF</button></a></li>
               <li><a href="https://www.dropbox.com/s/4me93pws7tc1md5/AmbroseLai_Resume.docx?dl=1"><button className="docx" tabIndex="-1"><FontAwesomeIcon icon={faFileWord} size="lg" />&nbsp;&nbsp;Download&nbsp;as DOCX</button></a></li>
-            </ul>
+            </ul>`
           <div id="resumeContent">
             {/* Basic Contact Section */}
             <section className="resumeSection" id="Contact">
               <h1>Ambrose Lai</h1>
-
+              <p>
+                Toronto, ON
+                &nbsp;|&nbsp;
+                Email: <a href="mailto:ambrose.lai@@outlook.com" title="Email">ambrose.lai@outlook.com</a>
+                &nbsp;|&nbsp;
+                LinkedIn: <a href="https://www.linkedin.com/in/ambroselai" title="LinkedIn">linkedin.com/in/ambroselai</a>
+                &nbsp;|&nbsp;
+                GitHub: <a href="https://github.com/alairon" title="GitHub">github.com/alairon</a>
+                &nbsp;|&nbsp;
+                Website: <a href="https://alairon.github.io">alairon.github.io</a>
+              </p>
             </section>
             {/* Skills Section */}
             <section className="resumeSection" id="Skills">
