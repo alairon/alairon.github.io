@@ -1,8 +1,12 @@
-#social, #aboutContent, #aboutSite {
+#social, #aboutContent {
   box-shadow: 0 0 10px rgba(0,0,0, 0.4);
   background-color: whitesmoke;
   padding: 2em;
   margin-bottom: 2em;
+}
+
+h1 {
+  font-size: 2em;
 }
 
 #socialLinks a {

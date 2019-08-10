@@ -41,9 +41,9 @@ class Portfolio extends React.Component {
             <div>
               <h1>SwitchRP</h1>
               <p>
-                Switch Rich Presence (SwitchRP) is a desktop application built with Electron that allows users to post a custom game status.
-                I created this application because I wanted an easy way to show other users what I was doing on Discord (a popular gaming-focused communication tool). 
-                The idea came about because the Nintendo Switch does not communicate game activities with Discord.
+                Switch Rich Presence (SwitchRP) is a desktop application built with the Electron framework that allows users to post and switch between custom game statuses. 
+                I created this application because I wanted an easy way to show other users what I was doing on Discord (a popular gaming-focused communication tool).
+                The idea came about because the Nintendo Switch does not have the capability to communicate game activities with users on Discord.
               </p>
               <p>
                 <strong>Topics</strong>: UI/UX Design, Frontend Development, Backend Development, Electron.js

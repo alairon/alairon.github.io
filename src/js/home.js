@@ -21,10 +21,14 @@ export default class Home extends React.Component {
             So when it came to developing this site, I decided to challenge myself with three restrictions:
           </p>
           <ol>
-            <li>All CSS must be written from scratch &mdash; Bootstrap isn't allowed!</li>
+            <li>All CSS must be written from scratch &mdash; Bootstrap or other CSS libraries aren't allowed!</li>
             <li>The site cannot be built upon an existing template</li>
-            <li>The site must be built with React (using JSX syntax)</li>
+            <li>I must learn how to use React, then build the site with it (using JSX syntax)</li>
           </ol>
+          <br />
+          <p>
+            You can use the links on the panel above to learn more about me.
+          </p>
           <br />
           <p>
             If you would like to see what this site used to look like without any content, <a href={'./legacy/index.html'}>click here to see my legacy home page.</a>

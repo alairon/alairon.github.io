@@ -29,13 +29,13 @@ class Resume extends React.Component {
               <p>
                 Toronto, ON
                 &nbsp;|&nbsp;
-                Email: <a href="mailto:ambrose.lai@@outlook.com" title="Email">ambrose.lai@outlook.com</a>
+                Email:&nbsp;<a href="mailto:ambrose.lai@@outlook.com" title="Email">ambrose.lai@outlook.com</a>
                 &nbsp;|&nbsp;
-                LinkedIn: <a href="https://www.linkedin.com/in/ambroselai" title="LinkedIn">linkedin.com/in/ambroselai</a>
+                LinkedIn:&nbsp;<a href="https://www.linkedin.com/in/ambroselai" title="LinkedIn">linkedin.com/in/ambroselai</a>
                 &nbsp;|&nbsp;
-                GitHub: <a href="https://github.com/alairon" title="GitHub">github.com/alairon</a>
+                GitHub:&nbsp;<a href="https://github.com/alairon" title="GitHub">github.com/alairon</a>
                 &nbsp;|&nbsp;
-                Website: <a href="https://alairon.github.io">alairon.github.io</a>
+                Website:&nbsp;<a href="https://alairon.github.io">alairon.github.io</a>
               </p>
             </section>
             {/* Skills Section */}

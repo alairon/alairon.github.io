@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Banner } from './banner';
 import { ScrollToTopOnMount } from '../index';
+import '../css/about.css';
 
 class About extends React.Component {
   render() {
@@ -14,13 +15,33 @@ class About extends React.Component {
         <ScrollToTopOnMount />
         <Banner />
         <div id="content">
-          <p>
-            GitHub: <a href="https://github.com/alairon" title="GitHub">https://github.com/alairon</a>
-            <br />
-            LinkedIn: <a href="https://www.linkedin.com/in/ambroselai" title="LinkedIn">https://www.linkedin.com/in/ambroselai</a>
-            <br />
-            Email: <a href="mailto:alairon@outlook.com" title="Email">alairon@outlook.com</a>
-          </p>
+          <section id="social">
+            <h1>Contact</h1>
+            <p>
+              GitHub: <a href="https://github.com/alairon" title="GitHub">https://github.com/alairon</a>
+              <br />
+              LinkedIn: <a href="https://www.linkedin.com/in/ambroselai" title="LinkedIn">https://www.linkedin.com/in/ambroselai</a>
+              <br />
+              Email: <a href="mailto:ambrose.lai@outlook.com" title="Email">ambrose.lai@outlook.com</a>
+            </p>
+          </section>
+          <section id="aboutContent">
+            <h1>About Me</h1>
+            <p>
+              I have a Bachelor of Computing and a Certificate in Business from the University of Guelph.
+              I'm an engaged individual with well-rounded experience in web development, front-end, and back-end software development.
+              I am currently seeking full-time software development opportunities and have created several projects during my spare time to further develop and refine my skills.
+              As for programming, I am most familiar with C, Java, and HTML/CSS, but I enjoy learning new technologies and learned how to use React, JavaScript and C++ over the last year.
+            </p>
+            <p>
+              My passion is in developing and creating solutions that improve or enhances people's experiences.
+
+            </p>
+            <p>
+              During my time at the University of Guelph, 
+              That lead me to becoming an orientation volunteer, a team leader at Project Serve (a one day experimental volunteering event), and a residence hall president.
+            </p>
+          </section>
         </div>
       </div>
     );
