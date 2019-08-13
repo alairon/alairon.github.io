@@ -125,7 +125,7 @@ Sections
   @page {
     size: letter portrait;
     marks: none;
-    bleed: 1en;
+    bleed: 1in;
   }
 
   * {
