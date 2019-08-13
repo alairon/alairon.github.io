@@ -21,7 +21,6 @@ class Resume extends React.Component {
             <ul id="resumeButtons">
               <li><a href="https://www.dropbox.com/s/3pmz0tlumxvy2em/AmbroseLai_Resume.pdf?dl=1"><button className="pdf" tabIndex="-1"><FontAwesomeIcon icon={faFilePdf} size="lg" />&nbsp;&nbsp;Download&nbsp;as PDF</button></a></li>
               <li><a href="https://www.dropbox.com/s/4me93pws7tc1md5/AmbroseLai_Resume.docx?dl=1"><button className="docx" tabIndex="-1"><FontAwesomeIcon icon={faFileWord} size="lg" />&nbsp;&nbsp;Download&nbsp;as DOCX</button></a></li>
-              <li><button onClick={() => window.print()}>Print</button></li>
             </ul>
           <div id="resumeContent">
             {/* Basic Contact Section */}
