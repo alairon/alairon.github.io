@@ -122,6 +122,12 @@ Sections
 
 /* Section C - Print Settings */
 @media print {
+  @page {
+    size: letter portrait;
+    marks: none;
+    bleed: 1en;
+  }
+
   * {
     background-color: white;
     position: static !important;
