@@ -6,6 +6,7 @@ Sections
   B - Buttons
     i  - PDF button
     ii - DOCX button
+  C - Print Settings
 -----
 */
 
@@ -118,3 +119,28 @@ Sections
 }
 /* Subsection ii End */
 /* Section B End */
+
+/* Section C - Print Settings */
+@media print {
+  * {
+    background-color: white;
+    position: static !important;
+  }
+
+  .navMenu, .banner, #resumeButtons, footer {
+    display: none;
+  }
+
+  #content, #resumeContent {
+    margin: 0;
+    padding: 0;
+  }
+
+  #resumeContent {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+  }
+}
+/* Section C End */
