@@ -133,6 +133,14 @@ Sections
     position: static !important;
   }
 
+  .screenDivider {
+    display: inline;
+  }
+
+  .screenBreak {
+    display: none;
+  }
+
   .navMenu, .banner, #resumeButtons, footer {
     display: none;
   }
@@ -150,3 +158,34 @@ Sections
   }
 }
 /* Section C End */
+
+@media screen and (max-width: 600px){
+  .screenDivider {
+    display: none;
+  }
+  .screenBreak {
+    display: inline;
+  }
+
+  .resumeSection span.date {
+    float: left;
+  }
+
+  span {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media screen and (min-width: 601px){
+  .screenDivider {
+    display: inline;
+  }
+
+  .screenBreak {
+    display: none;
+  }
+
+  .resumeSection span.date {
+    float: right;
+  }
+}

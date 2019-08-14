@@ -27,15 +27,19 @@ class Resume extends React.Component {
             <section className="resumeSection" id="Contact">
               <h1>Ambrose Lai</h1>
               <p>
-                Toronto, ON
-                &nbsp;|&nbsp;
-                Email:&nbsp;<a href="mailto:ambrose.lai@outlook.com" title="Email">ambrose.lai@outlook.com</a>
-                &nbsp;|&nbsp;
-                LinkedIn:&nbsp;<a href="https://www.linkedin.com/in/ambroselai" title="LinkedIn">linkedin.com/in/ambroselai</a>
-                &nbsp;|&nbsp;
-                GitHub:&nbsp;<a href="https://github.com/alairon" title="GitHub">github.com/alairon</a>
-                &nbsp;|&nbsp;
-                Website:&nbsp;<a href="https://alairon.github.io">alairon.github.io</a>
+                Toronto, ON 
+                <span className="screenDivider"> | </span>
+                <span className="screenBreak"><br /></span>
+                Email:&nbsp;<a href="mailto:ambrose.lai@outlook.com" title="Email">ambrose.lai@outlook.com</a> 
+                <span className="screenDivider"> | </span>
+                <span className="screenBreak"><br /></span>
+                LinkedIn:&nbsp;<a href="https://www.linkedin.com/in/ambroselai" title="LinkedIn">linkedin.com/in/ambroselai</a> 
+                <span className="screenDivider"> | </span>
+                <span className="screenBreak"><br /></span>
+                GitHub:&nbsp;<a href="https://github.com/alairon" title="GitHub">github.com/alairon</a> 
+                <span className="screenDivider"> | </span>
+                <span className="screenBreak"><br /></span>
+                Website:&nbsp;<a href="https://alairon.github.io">alairon.github.io</a> 
               </p>
             </section>
             {/* Skills Section */}
@@ -54,12 +58,14 @@ class Resume extends React.Component {
               <ul>
                 <li>
                   <span>Bachelor of Computing</span>
+                  <span className="screenBreak"><br /></span>
                   <span className="date">Sept 2013 &ndash; Apr 2018</span>
                   <br />
                   <span className="italics">University of Guelph &mdash; Guelph, ON</span>
                 </li>
                 <li>
                   <span>Certificate in Business</span>
+                  <span className="screenBreak"><br /></span>
                   <span className="date">Jan 2016 &ndash; Apr 2018</span>
                   <br />
                   <span className="italics">University of Guelph &mdash; Guelph, ON</span>
@@ -73,6 +79,7 @@ class Resume extends React.Component {
               <ul>
                 <li>
                   <span>Personal Portfolio Website</span>
+                  <span className="screenBreak"><br /></span>
                   <span className="date">July 2019 &ndash; Aug 2019</span>
                   <br />
                   <a className="link" href="https://github.com/alairon/alairon.github.io/tree/dev">Personal Project Hosted on GitHub</a>
@@ -84,6 +91,7 @@ class Resume extends React.Component {
                 </li>
                 <li>
                   <span>SwitchRP</span>
+                  <span className="screenBreak"><br /></span>
                   <span className="date">Dec 2018 &ndash; Jan 2019</span>
                   <br />
                   <a className="link" href="https://github.com/alairon/SwitchRP">Personal Project Hosted on GitHub</a>
@@ -94,6 +102,7 @@ class Resume extends React.Component {
                 </li>
                 <li>
                   <span>transitin-sqlite</span>
+                  <span className="screenBreak"><br /></span>
                   <span className="date">Aug 2018 &ndash; Sept 2018</span>
                   <br />
                   <a className="link" href="https://github.com/alairon/transitin-sqlite">Personal Project Hosted on GitHub</a>
@@ -105,6 +114,7 @@ class Resume extends React.Component {
                 </li>
                 <li>
                   <span>Trick or Eat</span>
+                  <span className="screenBreak"><br /></span>
                   <span className="date">Feb 2018 &ndash; Mar 2018</span>
                   <br />
                   <span className="italics">Special Topics in Computing, University of Guelph</span>
@@ -116,6 +126,7 @@ class Resume extends React.Component {
                 </li>
                 <li>
                   <span>Community Living Cambridge</span>
+                  <span className="screenBreak"><br /></span>
                   <span className="date">Sept 2017 &ndash; Dec 2017</span>
                   <br />
                   <span className="italics">System Analysis and Design in Applications, University of Guelph</span>
@@ -128,6 +139,7 @@ class Resume extends React.Component {
                 </li>
                 <li>
                   <span>Swiftnotes</span>
+                  <span className="screenBreak"><br /></span>
                   <span className="date">Jan 2017 &ndash; Apr 2017</span>
                   <br />
                   <span className="italics">Software Engineering, University of Guelph</span>
@@ -145,6 +157,7 @@ class Resume extends React.Component {
               <ul>
                 <li>
                   <span>Interhall Council Scribe</span>
+                  <span className="screenBreak"><br /></span>
                   <span className="date">Aug 2017 &ndash; Apr 2018</span>
                   <br />
                   <span className="italics">Interhall Council, University of Guelph</span>
@@ -155,6 +168,7 @@ class Resume extends React.Component {
                 </li>
                 <li>
                   <span>Information Technology Student Advisory Committee (ITSAC)</span>
+                  <span className="screenBreak"><br /></span>
                   <span className="date">Sept 2016 &ndash; Mar 2018</span>
                   <br />
                   <span className="italics">Computing &amp; Communication Services (CCS), University of Guelph</span>
@@ -165,6 +179,7 @@ class Resume extends React.Component {
                 </li>
                 <li>
                   <span>Undergraduate Office 365 Steering Committee</span>
+                  <span className="screenBreak"><br /></span>
                   <span className="date">Jan 2017 &ndash; Jun 2017</span>
                   <br />
                   <span className="italics">Office 365 Project, University of Guelph</span>
@@ -176,6 +191,7 @@ class Resume extends React.Component {
                 </li>
                 <li>
                   <span>East Village President</span>
+                  <span className="screenBreak"><br /></span>
                   <span className="date">May 2016 &ndash; Apr 2017</span>
                   <br />
                   <span className="italics">Interhall Council, University of Guelph</span>
