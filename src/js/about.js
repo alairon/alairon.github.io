@@ -35,12 +35,24 @@ class About extends React.Component {
             </p>
             <p>
               My passion is in developing and creating solutions that improve or enhances people's experiences.
-
             </p>
             <p>
               During my time at the University of Guelph, 
               That lead me to becoming an orientation volunteer, a team leader at Project Serve (a one day experimental volunteering event), and a residence hall president.
             </p>
+            {/*
+            <p>
+              Here's what I can also offer:
+            </p>
+            <ul>
+              <li>Sound programming skills, with room to grow.</li>
+                <li>Learned C++, SQLite, Regex, JavaScript, and React</li>
+              <li>Tested leadership and communication skills </li>
+                <li>Committees, team leader, orientation volunteer, judicial, residence hall president</li>
+              <li>Analytical</li>
+                <li>Focused on Marketing Analysis while studying Comp Sci.</li>
+            </ul>
+            */}
           </section>
         </div>
       </div>
