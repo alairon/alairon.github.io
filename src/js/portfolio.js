@@ -22,6 +22,8 @@ class Portfolio extends React.Component {
                 A personal portfolio website leveraging the power of React js. 
                 While I had some kind of website a couple years ago, I wanted to modernize it while using technologies that I haven't used before. 
                 I went with React and decided to write all the CSS myself, without the help of a precompiled CSS library or building upon a template.
+                I also kept in mind of accessibility and good UX practices while developing the site;
+                  from the colour schemes being WCAG 2.1 AAA compliant, ensuring logical tab flow throughout the site, to the ability to print a clean page directly from the resume page (Ctrl/&#8984; + P).
               </p>
               <p>
                 <strong>Topics</strong>: UI/UX Design, Frontend Development, React

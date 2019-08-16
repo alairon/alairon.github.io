@@ -15,7 +15,7 @@ export default class Home extends React.Component {
         <div className="home" id="content">
           <h1 id="welcomeHeader">Welcome!</h1>
           <p>
-            Welcome to my website! My name is Ambrose Lai, and I re-created (yes, re-created) this website because I wanted to refine my HTML/CSS skills while learning React.
+            Welcome to my website! My name is Ambrose Lai, and I re-created this website because I wanted to refine my HTML/CSS skills while learning React.
             <br />
             My previous experience with HTML/CSS heavily relied on the use of the Bootstrap CSS framework.
             So when it came to developing this site, I decided to challenge myself with three restrictions:

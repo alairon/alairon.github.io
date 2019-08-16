@@ -24,15 +24,18 @@ class About extends React.Component {
               As for programming, I am most familiar with C, Java, and HTML/CSS, but I enjoy learning new technologies and learned how to use React, JavaScript, and C++ over the last year.
             </p>
             <p>
-              My passion is in developing and creating solutions that improve or enhances people's experiences.
-              Some of my hobbies outside of developing includes casually analyzing designs, walking down the harbourfront, playing video games, and just hanging out with friends.
+              My passion is in developing and creating solutions that improve or enhance people's experiences.
               One of my recent projects revolved around the difficulty in creating custom status messages on Discord, a popular gaming-focused chat platform.
-              This caused me to want to develop Switch Rich Presence (SwitchRP), where I learned how to use the Electron.js framework to create a desktop application which allows users to easily switch between games when playing on platforms that don't support Discord (e.g. Nintendo Switch, mobile games).
+              This caused me to want to develop Switch Rich Presence (SwitchRP), where I learned how to use the Electron.js framework to create a desktop application. 
+              The program allows users to easily switch between games when playing on platforms that don't support Discord (e.g. Nintendo Switch, mobile games).
             </p>
             <p>
               While studying computer science, I was interested in expanding my skill set beyond the keyboard and monitor.
-              That lead me to become involved with the univeristy &ndash; becoming an orientation volunteer, a team leader at Project Serve (a one-day experimental volunteering event), a residence hall president and becoming a boardroom secretary (scribe).
-              I also took part in sitting at several university committees, such as the IT Student Advisory Committee (ITSAC) and the Undergraduate Office 365 Standing Committee, where I learned how to communicate with both students and IT staff regarding what their needs and requirements.
+              That lead me to become involved with the university &ndash; 
+                becoming an orientation volunteer and team leader at Project Serve Day (a one-day experimental volunteering event) for several years,
+                as well as being a residence hall president and a boardroom secretary (scribe).
+              I also took part in sitting at several university committees, such as the IT Student Advisory Committee (ITSAC) and the Undergraduate Office 365 Standing Committee, 
+                where I learned how to communicate with both students and campus IT staff regarding their needs and requirements.
             </p>
           </section>
 
