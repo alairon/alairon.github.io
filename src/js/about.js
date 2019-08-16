@@ -27,7 +27,7 @@ class About extends React.Component {
               My passion is in developing and creating solutions that improve or enhances people's experiences.
               Some of my hobbies outside of developing includes casually analyzing designs, walking down the harbourfront, playing video games, and just hanging out with friends.
               One of my recent projects revolved around the difficulty in creating custom status messages on Discord, a popular gaming-focused chat platform.
-              This caused me to want to develop Switch Rich Presence (SwitchRP), which I learned how to use the Electron.js framework to create a desktop applicaiton that allows users to easily switch between games when playing on platforms that doesn't support Discord (e.g. Nintendo Switch).
+              This caused me to want to develop Switch Rich Presence (SwitchRP), where I learned how to use the Electron.js framework to create a desktop application which allows users to easily switch between games when playing on platforms that don't support Discord (e.g. Nintendo Switch, mobile games).
             </p>
             <p>
               While studying computer science, I was interested in expanding my skill set beyond the keyboard and monitor.
