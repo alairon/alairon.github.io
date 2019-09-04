@@ -19,7 +19,7 @@ export class Navbar extends React.Component {
     return (
       <Router>
         <nav>
-          <span className="navMenuToggle"><FontAwesomeIcon icon={faBars} />&nbsp;&nbsp;Menu</span>
+          <button className="navMenuToggle"><FontAwesomeIcon icon={faBars} />&nbsp;&nbsp;MENU</button>
           <ul className="navMenu" id="navbar-menu">
             <li><NavLink to="/index" activeClassName="active">Home</NavLink></li>
             <li><NavLink to="/portfolio">Portfolio</NavLink></li>
