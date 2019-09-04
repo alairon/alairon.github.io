@@ -84,7 +84,7 @@ class Resume extends React.Component {
                   <br />
                   <a className="link" href="https://github.com/alairon/alairon.github.io/tree/dev">Personal Project Hosted on GitHub</a>
                   <ul>
-                    <li>Implemented a personal website using React, HTML and CSS from scratch with JSX.</li>
+                    <li>Implemented a personal website using React (JSX), HTML and CSS from scratch.</li>
                     <li>Utilized npm to acquire and manage React packages.</li>
                     <li>Used Github Pages to host the website.</li>
                   </ul>
@@ -198,7 +198,7 @@ class Resume extends React.Component {
                   <ul>
                     <li>Represented the residence community to university committees and administration.</li>
                     <li>Collaborated with Residence Assistants to run large-scale residence events.</li>
-                    <li>Organized, chaired, and converyed information to attendees in weekly council meetings.</li>
+                    <li>Organized, chaired, and conveyed information to attendees in weekly council meetings.</li>
                   </ul>
                 </li>
               </ul>
