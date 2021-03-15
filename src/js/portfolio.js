@@ -17,6 +17,60 @@ class Portfolio extends React.Component {
         <div id="content">
           <div className="grid-container">
             <div>
+              <h1>Xiera Bot</h1>
+              <p>
+                During the pandemic, I played a game called Phantasy Star Online 2. 
+                While it was a great game, both the in-game alliance I was in and myself eventually became frustrated at how inconvenient it was to find information about the game's scheduled urgent quests. 
+                This led me to the creation of the Xiera Discord bot, named after the NPC of the same name. 
+                <br />
+                I created the bot with TypeScript and handled searches through the Fuse.js library. I chose the Fuse library because of its fuzzy search capabilites, which allowed leniency in case users misspelt a search term.
+                An early build of the bot used data from a public Google Calendar through the iCalendar standard, but it got replaced with a JSON when the game's developers opted to use that.
+                <br />
+                This project is not associated with SEGA, the publishers of Phantasy Star Online 2.
+              </p>
+              <p>
+                <strong>Topics &amp; Concepts</strong>: Discord, Node.js, Object Oriented Programming, Parsing user input and JSON/iCalendar files
+                <br />
+                <strong>Languages</strong>: JavaScript (TypeScript)
+                <br />
+                <strong>Frameworks &amp; Libraries</strong>: Discord.js, Fuse.js
+                <br />
+                <strong>Specifications</strong>: iCalendar, JSON
+                <br />
+                <strong>Tools</strong>: npm, Visual Studio Code, Git, Heroku
+              </p>
+              <p>
+                <a href="https://github.com/alairon/XieraBot">View project on GitHub</a>
+              </p>
+            </div>
+          </div>
+          <div className="grid-container">
+            <div>
+              <h1>WS Crafter</h1>
+              <p>
+                The Weiss Schwartz Crafter was my take on a deck building and card database web app based on the card game of the same name.
+                Originally, the database was using MySQL.
+                However, to reduce (mostly eliminate) costs associated with web hosting, I made the switch to host the project on Heroku and redesigned the database to use Postgres.
+                As a disclaimer, this project is not associated with Bushiroad Inc., the creators of the game.
+              </p>
+              <p>
+                <strong>Topics</strong>: Full Stack Web Development, SQL Databases, React, Node.js, Express.js, UI/UX Design
+                <br />
+                <strong>Languages</strong>: MySQL, Postgres, JavaScript
+                <br />
+                <strong>Frameworks &amp; Libraries</strong>: React, Express.js
+                <br />
+                <strong>Tools</strong>: npm, Visual Studio Code, Git, Heroku
+              </p>
+              <p>
+                <a href="https://github.com/alairon/ws-crafter-backend">View project on GitHub</a>
+                <br />
+                <a href="https://ws-crafter-backend.herokuapp.com">View deployment on Heroku</a>
+              </p>
+            </div>
+          </div>
+          <div className="grid-container">
+            <div>
               <h1>Personal Resume Website</h1>
               <p>
                 A personal portfolio website leveraging the power of React js. 
