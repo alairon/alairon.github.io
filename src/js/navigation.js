@@ -54,7 +54,7 @@ export class Footer extends React.Component {
           </ul>
         </div>
         <br />
-        <span id="copy">&copy;2019 Ambrose Lai</span>
+        <span id="copy">&copy;2021 Ambrose Lai</span>
       </footer>
     );
   }
