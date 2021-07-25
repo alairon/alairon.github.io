@@ -46,9 +46,9 @@ class Resume extends React.Component {
             <section className="resumeSection" id="Skills">
               <h2>Skills</h2>
               <ul>
-                <li><span>Programming&nbsp;Languages:&nbsp;</span>C, C++, HTML, CSS, JavaScript, Java, MySQL, SQLite, PHP, Swift</li>
-                <li><span>Libraries&nbsp;&amp;&nbsp;Frameworks:&nbsp;</span>React, Node.js, Electron.js, Bootstrap</li>
-                <li><span>Tools:&nbsp;</span>Git, GitHub, Windows, Linux, Visual Studio, Visual Studio Code, Adobe Photoshop/Premiere Elements, npm, Axure RP, Visio, Andriod Studio, Bash, WordPress, XCode</li>
+                <li><span>Programming&nbsp;Languages:&nbsp;</span>HTML, CSS, JavaScript, C, C++, Java, MySQL, PostgreSQL, SQLite, PHP, Swift</li>
+                <li><span>Libraries&nbsp;&amp;&nbsp;Frameworks:&nbsp;</span>React, Node.js, Next.js, Mocha/Chai, Leaflet.js, Fuse.js, Electron.js, Bootstrap</li>
+                <li><span>Tools:&nbsp;</span>Git, GitHub, Visual Studio, Visual Studio Code, Travis CI, Adobe Photoshop/Premiere Elements, npm, Axure RP, Visio, Andriod Studio, Bash, WordPress, XCode</li>
               </ul>
             </section>
 
@@ -77,6 +77,47 @@ class Resume extends React.Component {
             <section className="resumeSection" id="Projects">
               <h2>Projects</h2>
               <ul>
+              <li>
+                  <span>Phantasy Star Online 2 New Genesis Interactive Map</span>
+                  <span className="screenBreak"><br /></span>
+                  <span className="date">May 2021 &ndash; present</span>
+                  <br />
+                  <a className="link" href="https://github.com/alairon/ngs-world-map">Personal Project Hosted on GitHub</a>
+                  <ul>
+                    <li>Designed and implemented a dynamic, mobile-friendly fictional interactive map using HTML, CSS, and TypeScript (JavaScript, React, Next.js) with the Leaflet.js framework.</li>
+                    <li>Implemented a robust collection using JSON to make it easier to maintain and collaborate.</li>
+                    <li>Reduced client loading speeds by pre-processing data on the server.</li>
+                    <li>Collaborated with the community to gather data assets and to improve map usability.</li>
+                  </ul>
+                </li>
+                <li>
+                  <span>Xiera Discord Bot</span>
+                  <span className="screenBreak"><br /></span>
+                  <span className="date">Jan 2020 &ndash; May 2020</span>
+                  <br />
+                  <a className="link" href="https://github.com/alairon/XieraBot">Personal Project Hosted on GitHub</a>
+                  <ul>
+                    <li>Published and maintained a public production of the bot on Heroku.</li>
+                    <li>Improved reliability of the bot with test cases using Mocha and Chai on Travis CI.</li>
+                    <li>Created meaningful data by parsing JSON content from the web.</li>
+                    <li>Utilized Discord APIs to listen and respond to user requests.</li>
+                    <li>Implemented additional features beyond the initial purpose to improve the users’ experience.</li>
+                    <li>Incorporated the use of A/B testing to improve the presentation of data.</li>
+                  </ul>
+                </li>
+                <li>
+                  <span>Weiss Schwartz Crafter (WS Crafter) Backend</span>
+                  <span className="screenBreak"><br /></span>
+                  <span className="date">Jan 2020 &ndash; May 2020</span>
+                  <br />
+                  <a className="link" href="https://github.com/alairon/ws-crafter-backend" noreferrer>Personal Project Hosted on GitHub</a>
+                  <ul>
+                    <li>Deployed a production version to Heroku.</li>
+                    <li>Improved reliability of the site with test cases using Mocha and Chai on Travis CI.</li>
+                    <li>Successfully transitioned data from a MySQL database to a Postgres database.</li>
+                    <li>Designed and built a RESTful API backend to deliver data.</li>
+                  </ul>
+                </li>
                 <li>
                   <span>Personal Portfolio Website</span>
                   <span className="screenBreak"><br /></span>

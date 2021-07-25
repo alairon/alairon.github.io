@@ -17,16 +17,48 @@ class Portfolio extends React.Component {
         <div id="content">
           <div className="grid-container">
             <div>
+              <h1>Phantasy Star Online 2 New Genesis Interactive Map</h1>
+              <p>
+                In 2021, Sega released Phantasy Star Online 2 New Genesis (PSO2NGS) &mdash; an open-world MMO that retained most of the action gameplay from the original PSO2.
+                I have tried multiple open-world/sandbox MMOs in the past such as <a href="https://www.somethinglovely.net/bdo/" rel="noreferrer" target="_blank">Famme's Black Desert Online map</a>. That got me the idea of creating a similar product, but for PSO2NGS.
+                <br/>
+                From my experience with looking up information while playing the game, I typically used my phone to look up the information I needed while the game was running on the main screen. 
+                This was what inspired me to create the map that not only performed well on both desktop and mobile devices, but was also easy to use on both device types as well.
+                To make the map look more appealing and authentic, I did my best to mimic the map's interface to what's currently present in PSO2NGS.
+                <br />
+                This project is not associated with Sega, the publishers of Phantasy Star Online 2 New Genesis.
+              </p>
+              <p>
+                <strong>Topics &amp; Concepts</strong>: Web Development, Frontend Development, Visual Design, Mobile Design, Creating and parsing JSON files
+                <br />
+                <strong>Languages</strong>: JavaScript (TypeScript)
+                <br />
+                <strong>Frameworks &amp; Libraries</strong>: Leaflet.js, Next.js, Chakra UI
+                <br />
+                <strong>Specifications</strong>: JSON, GeoJSON
+                <br />
+                <strong>Tools</strong>: npm, Visual Studio Code, Git, GitHub, Vercel
+              </p>
+              <p>
+                <a href="https://ngs-world-map.vercel.app/en/map">Live Demo</a>
+              </p>
+              <p>
+                <a href="https://github.com/alairon/ngs-world-map">View project on GitHub (Under an alias)</a>
+              </p>
+            </div>
+          </div>
+          <div className="grid-container">
+            <div>
               <h1>Xiera Bot</h1>
               <p>
                 During the pandemic, I played a game called Phantasy Star Online 2. 
                 While it was a great game, both the in-game alliance I was in and myself eventually became frustrated at how inconvenient it was to find information about the game's scheduled urgent quests. 
-                This led me to the creation of the Xiera Discord bot, named after the NPC of the same name. 
+                This led me to the creation of the Xiera Discord bot, named after the NPC of the same name.
                 <br />
                 I created the bot with TypeScript and handled searches through the Fuse.js library. I chose the Fuse library because of its fuzzy search capabilites, which allowed leniency in case users misspelt a search term.
                 An early build of the bot used data from a public Google Calendar through the iCalendar standard, but it got replaced with a JSON when the game's developers opted to use that.
                 <br />
-                This project is not associated with SEGA, the publishers of Phantasy Star Online 2.
+                This project is not associated with Sega, the publishers of Phantasy Star Online 2.
               </p>
               <p>
                 <strong>Topics &amp; Concepts</strong>: Discord, Node.js, Object Oriented Programming, Parsing user input and JSON/iCalendar files
