@@ -8,8 +8,9 @@ module.exports = {
 
     extend: {
       fontFamily: {
-        "body-sans": "'Source Sans Pro','Segoe UI',Tahoma,Geneva,Verdana,sans-serif",
-        "nav-sans": "'Raleway','Segoe UI',Tahoma,Geneva,Verdana,sans-serif"
+        "body-sans": "'Source Sans Pro', 'Segoe UI' , Tahoma, Geneva, Verdana, sans-serif",
+        "nav-sans": "'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+        "header-serif": "'Crimson Text', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif"
       },
       colors: {
         "nav-native": "#000",
