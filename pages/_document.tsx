@@ -5,12 +5,14 @@ export default function Document(): JSX.Element {
     <Html lang="en">
       <Head>
         <meta charSet='utf-8' />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet"></link>
       </Head>
-      <body className="bg-[#f5f5f5]">
+      <body className="bg-[#f5f5f5] relative min-h-screen">
         <Main />
         <NextScript />
       </body>
