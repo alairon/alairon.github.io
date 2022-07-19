@@ -54,8 +54,8 @@ export default function NavBar(props: any): JSX.Element {
 
   const NavButton = (props: propsContent): JSX.Element => {
     const buttonConfig = `px-4 py-3
-    focus:bg-nav-active focus:text-nav-text-active
-    hover:bg-nav-active hover:text-nav-text-active
+    focus:bg-nav-active focus:outline-none
+    hover:bg-nav-active
     font-nav-sans uppercase`;
     const buttonHighlight = ' sm:underline sm:underline-offset-8 sm:decoration-4 sm:decoration-sky-500 bg-sky-900 sm:bg-inherit'
 
@@ -92,15 +92,19 @@ export default function NavBar(props: any): JSX.Element {
     <div>
       <nav id="navbarMain" className="w-full h-12 bg-nav-native/75 backdrop-blur-sm sm:flex sm:flex-row fixed z-[500] text-white">
         <div id="hamburger" className={`${menuState ? 'bg-sky-900/75' : ''}
-        px-4 py-3 w-fit
-        focus:bg-nav-active focus:text-nav-text-active
-        hover:sm:bg-nav-active hover:sm:text-nav-text-active
-        font-nav-sans uppercase font-semibold bg-nav-native
-        sm:hidden select-none`} onClick={() => { setMenuState(!menuState) }}>
-          MENU
+          px-4 py-3 h-full w-fit
+          focus:bg-nav-active focus:text-nav-text-active
+          hover:bg-nav-active hover:text-nav-text-active
+          active:bg-nav-active active:text-nav-text-active
+          font-nav-sans uppercase font-semibold bg-nav-native
+          sm:hidden focus:outline-none
+        `} tabIndex={0} onClick={() => { setMenuState(!menuState) }}>
+          <span className='select-none'>{menuState ? 'CLOSE' : 'MENU'}</span>
         </div>
         <div id="navbarSeparatorLeft" className="hidden sm:inline sm:grow h-12" />
-        <div className={(menuState ? "visible" : "invisible") + " flex flex-col select-none z-[500] bg-nav-native sm:bg-transparent sm:overflow-hidden sm:flex-row sm:visible"}>
+        <div className={`
+          ${menuState ? "visible" : "invisible"} flex flex-col text-center select-none z-[500] bg-nav-native sm:bg-transparent sm:overflow-hidden sm:flex-row sm:visible
+        `}>
           {Object.keys(pages).map((e, i) => {
             if (currentNav.current === e) {
               return <NavButton url={pages[e].path} id={i} key={i} active>{pages[e].name}</NavButton>
@@ -111,7 +115,7 @@ export default function NavBar(props: any): JSX.Element {
         <div id="navbarSeparatorRight" className="sm:grow h-12" />
       </nav>
       <div id="" className="pt-12" /> {/* Padding */}
-      <div id="mobileUnfocusClose" className={(menuState ? 'fixed h-full w-full bg-black/50 backdrop-blur z-499 sm:hidden' : 'hidden')} onClick={() => { setMenuState(false) }} />
+      <div id="mobileUnfocusClose" className={(menuState ? 'fixed h-full w-full bg-black/25 backdrop-blur-sm z-[499] sm:hidden' : 'hidden')} onClick={() => { setMenuState(false) }} />
     </div>
   );
 }
