@@ -89,22 +89,22 @@ export default function NavBar(props: any): JSX.Element {
   }
 
   return (
-    <div>
-      <nav id="navbarMain" className="w-full h-12 bg-nav-native/75 backdrop-blur-sm sm:flex sm:flex-row fixed z-[500] text-white">
+    <>
+      <nav id="navbarMain" className="w-full h-12 bg-nav-native/75 backdrop-blur-sm flex flex-col sm:flex-row fixed z-[500] text-white print:hidden">
+        <div id="navbarSeparatorLeft" className="sm:grow h-12" />
         <div id="hamburger" className={`${menuState ? 'bg-sky-900/75' : ''}
-          px-4 py-3 h-full w-fit
-          focus:bg-nav-active focus:text-nav-text-active
-          hover:bg-nav-active hover:text-nav-text-active
-          active:bg-nav-active active:text-nav-text-active
-          font-nav-sans uppercase font-semibold bg-nav-native
-          sm:hidden focus:outline-none
-        `} tabIndex={0} onClick={() => { setMenuState(!menuState) }}>
+            px-4 py-3 h-full w-fit
+            focus:bg-nav-active focus:text-nav-text-active
+            hover:bg-nav-active hover:text-nav-text-active
+            active:bg-nav-active active:text-nav-text-active
+            font-nav-sans uppercase font-semibold bg-nav-native
+            sm:hidden focus:outline-none
+          `} tabIndex={0} onClick={() => { setMenuState(!menuState) }}>
           <span className='select-none'>{menuState ? 'CLOSE' : 'MENU'}</span>
         </div>
-        <div id="navbarSeparatorLeft" className="hidden sm:inline sm:grow h-12" />
         <div className={`
-          ${menuState ? "visible" : "invisible"} flex flex-col text-center select-none z-[500] bg-nav-native sm:bg-transparent sm:overflow-hidden sm:flex-row sm:visible
-        `}>
+            ${menuState ? "visible" : "invisible"} flex flex-col text-center select-none z-[500] bg-nav-native sm:bg-transparent sm:overflow-hidden sm:flex-row sm:visible
+          `}>
           {Object.keys(pages).map((e, i) => {
             if (currentNav.current === e) {
               return <NavButton url={pages[e].path} id={i} key={i} active>{pages[e].name}</NavButton>
@@ -112,10 +112,10 @@ export default function NavBar(props: any): JSX.Element {
             return <NavButton url={pages[e].path} id={i} key={i}>{pages[e].name}</NavButton>
           })}
         </div>
-        <div id="navbarSeparatorRight" className="sm:grow h-12" />
+        <div id="navbarSeparatorRight" className="hidden sm:inline sm:grow h-12" />
       </nav>
-      <div id="" className="pt-12" /> {/* Padding */}
       <div id="mobileUnfocusClose" className={(menuState ? 'fixed h-full w-full bg-black/25 backdrop-blur-sm z-[499] sm:hidden' : 'hidden')} onClick={() => { setMenuState(false) }} />
-    </div>
+      <div id="" className="pt-12" /> {/* Padding */}
+    </>
   );
 }
