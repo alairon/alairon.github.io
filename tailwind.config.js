@@ -5,7 +5,6 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
-
     extend: {
       fontFamily: {
         "body-sans": "'Source Sans Pro', 'Segoe UI' , Tahoma, Geneva, Verdana, sans-serif",
@@ -13,6 +12,7 @@ module.exports = {
         "header-serif": "'Crimson Text', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif"
       },
       colors: {
+        "offwhite": "#f5f5f5",
         "nav-native": "#000",
         "nav-active": "#4c4c4c",
         "nav-text": "#fff",
