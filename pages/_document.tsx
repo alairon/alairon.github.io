@@ -10,7 +10,7 @@ export default function Document(): JSX.Element {
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet"></link>
       </Head>
-      <body className="bg-[#f5f5f5] relative min-h-screen">
+      <body className="bg-offwhite relative min-h-screen">
         <Main />
         <NextScript />
       </body>
